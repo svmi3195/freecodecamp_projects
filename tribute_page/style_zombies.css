@@ -43,11 +43,17 @@ p {
 a:link {
     font-family: 'Droid Sans', sans-serif;
 	font-style: italic;
-	color: brown;	
+	color: #663300;	
 }
 
 a:visited {
-	color: orange;
+	color: #ff9900;
+}
+
+blockquote {
+	font-family: 'Droid Sans', sans-serif;
+	border: none;
+	margin: 30px;
 }
 
 .desc {
