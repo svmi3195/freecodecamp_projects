@@ -51,9 +51,13 @@ a:visited {
 }
 
 blockquote {
-	font-family: 'Droid Sans', sans-serif;
+	max-width: 900px;
+	color: #4d4d4d;
+	font-size: 1.3em;
+	font-family: 'Kalam', cursive;
+	text-align: justify;
 	border: none;
-	margin: 30px;
+	margin: auto;
 }
 
 .desc {
