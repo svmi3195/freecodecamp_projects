@@ -1,10 +1,11 @@
 ﻿h1
 {
-	font-family: 'Lobster', cursive;
+  font-family: 'Lobster', cursive;
+  font-size: 5em;
 }
 
 p
 {	    
-
-    font-family: 'Oregano', cursive;
+  font-family: 'Oregano', cursive;
+  font-size: 3em;
 }
