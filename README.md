@@ -6,4 +6,4 @@ This is a very simple page with one image, one link and a little bit of text. Sa
 2. Portfolio<br>
 Simple portfolio page with all its content accessible with just scrolling down. Made mainly with Bootstrap. Sample: http://codepen.io/svmi3195/full/kXJEBz/ <br><br>
 3. Random Quote Machine (Under development!!!)<br>
-A program which lets user to click a button and get a random quote. Made with plain HTML, CSS and JS. Sample: http://codepen.io/svmi3195/full/mEzBWX/ <br><br>
+A program which lets user to click a button and get a random quote. Sample: http://codepen.io/svmi3195/full/mEzBWX/ <br><br>
