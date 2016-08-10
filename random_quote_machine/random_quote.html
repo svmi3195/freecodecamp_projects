@@ -12,7 +12,12 @@
 <link href="https://fonts.googleapis.com/css?family=Over+the+Rainbow" rel="stylesheet"> 
 
  
-<link rel="stylesheet" type="text/css" href="random_quote_style.css"/> 
+<link rel="stylesheet" type="text/css" href="random_quote_style.css"/>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="random_quote_script.js"></script>  
 
 
 <title>Random Quote Machine</title>
@@ -29,8 +34,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
     <div id="author">- Lorem ipsum dolor</div>
     </blockquote>
-  <div class="btns-container"><button type="button"  name="getQuote">Another quote</button>
-  <button type="button"  name="tweetIt">Tweet this</button>
+  <div class="btns-container"><button type="button"  name="getQuote" onclick="randQuote()">Another quote</button>
+  <button type="button"  name="tweetIt" onclick="tweetIt">Tweet it</button>
   </div>
 </div>
 
