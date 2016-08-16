@@ -1,1 +1,7 @@
-﻿
+﻿body{
+  text-align: center;
+  padding: 5px;
+  
+  background-image: url('http://www.photos-public-domain.com/wp-content/uploads/2016/02/wispy-cirrus-clouds.jpg');
+  background-size: 100%;
+}
