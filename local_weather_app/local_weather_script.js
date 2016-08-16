@@ -7,9 +7,8 @@ function go(){
  $('#location').text("Loading location data ..."); 
   
 $.getJSON("http://ip-api.com/json/?callback=?",function(result){   $('#location').text(result.city + ", " + result.countryCode);   
-getWeather(result.city + "," + result.countryCode);
-                                                             
-})};
+getWeather(result.city + "," + result.countryCode);                                                             
+})}
 
 function getWeather(loc){
 
@@ -20,7 +19,7 @@ degC = Math.round(data.main.temp);
 var myImg = "<img src=\"http://openweathermap.org/img/w/" + data.weather[0].icon + ".png\">"
     $('#image').append(myImg);    $('#weather').text(Math.round(data.main.temp) + " °C, " + data.weather[0].main);
   });
-    };
+    }
 
 function changeDegs(){
  if(myJSON !== null && degC !== null){
@@ -29,6 +28,5 @@ function changeDegs(){
      }else if(myJSON !== null && degF !== null){
      degC = (degF-32)*5/9;  
      degF = null;     $('#weather').text(Math.round(myJSON.main.temp) + " °C, " + myJSON.weather[0].main);  
-     }
-  else{}  
-};
+     } 
+}
