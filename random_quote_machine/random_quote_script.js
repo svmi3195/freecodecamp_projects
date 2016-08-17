@@ -1,4 +1,9 @@
-﻿function randQuote(){
+﻿$(document).ready();
+
+$('#quoteBtn').on('click', randQuote);
+$('#tweetBtn').on('click', tweetIt);
+
+function randQuote(){
 
 $.ajax({
             url: 'http://quotes.stormconsultancy.co.uk/random.json?callback=my_method',
@@ -6,7 +11,7 @@ $.ajax({
             dataType: 'jsonp',
             error: function(xhr, status, error) {
                 $('#quote').text("Error occured while trying to get the quote, sorry!");
-                $('#author').text("");
+$('#author').text("");
             },
             success: function(json) {
                 $('#quote').text(json.quote);
@@ -27,10 +32,14 @@ function tweetIt(){
   
   var loc = "x";
     
-  var quote  = $('#quote').text() + " (" + $('#author').text()+ ")";
-    
+    var quote  = $('#quote').text() + " (" + $('#author').text()+ ")";
+
+
   quote = encodeURIComponent(quote);
 
   window.open('http://twitter.com/share?url=' + loc + '&text=' + quote + '&', 'twitterwindow', 'height=450, width=550, top='+($(window).height()/2 - 225) +', left='+$(window).width()/2 +', toolbar=0, location=0, menubar=0, directories=0, scrollbars=0');
   
 }
+
+
+
