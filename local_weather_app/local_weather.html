@@ -8,25 +8,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="local_weather_style.css"/>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="local_weather_script.js"></script>  
 
 
 <title>Local Weather App</title>
 </head>
 
-<body onload="go()">
+<body>
+
 <h1>Local Weather App</h1>
 <div class="main">
 <p id="location">...</p>
   <div id="image"></div>
 <p id="weather">...</p>
-<button type="button" onclick="changeDegs()">°C <-> °F</button>
+<button type="button" id="degsBtn">°C ↔ °F</button>
   </main>
+
+
+<script src="local_weather_script.js"></script>  
   </body>
 
 </html>

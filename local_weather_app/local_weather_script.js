@@ -1,13 +1,19 @@
-﻿var myJSON = null;
+﻿$( document ).ready(go);
+
+$('#degsBtn').on('click', changeDegs);
+
+var myJSON = null;
 var degC = null;
 var degF = null;
 
 function go(){
 
- $('#location').text("Loading location data ..."); 
+ $('#location').text("Loading location data...");
+ $('#weather').text("Make sure you're using http, not https!"); 
   
-$.getJSON("http://ip-api.com/json/?callback=?",function(result){   $('#location').text(result.city + ", " + result.countryCode);   
-getWeather(result.city + "," + result.countryCode);                                                             
+$.getJSON("http://ip-api.com/json/?callback=?",function(result){   
+  $('#location').text(result.city + ", " + result.countryCode);   
+getWeather(result.city + "," + result.countryCode);                                                            
 })}
 
 function getWeather(loc){
@@ -18,6 +24,7 @@ myJSON = data;
 degC = Math.round(data.main.temp);   
 var myImg = "<img src=\"http://openweathermap.org/img/w/" + data.weather[0].icon + ".png\">"
     $('#image').append(myImg);    $('#weather').text(Math.round(data.main.temp) + " °C, " + data.weather[0].main);
+$('#degsBtn').show();
   });
     }
 
