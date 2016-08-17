@@ -11,7 +11,7 @@ Sample: http://codepen.io/svmi3195/full/kXJEBz/ <br><br>
 A program which lets user to click a button, get a random quote and tweet it. Made using HTML, CSS, jQuery and quotes API http://quotes.stormconsultancy.co.uk/api <br>
 Sample: http://codepen.io/svmi3195/full/mEzBWX/ <br><br>
 <b>4. Local Weather App (Under Development!!!)</b><br>
-A program which lets user to view local weather and convert temperature to C or F degrees; a different icon is shown depending on the current local weather. Used this API for getting location: http://ip-api.com/# and this for getting weather conditions: http://openweathermap.org/api <br>
+A program which lets user to view local weather and convert temperature to C or F degrees; a different icon is shown depending on the current local weather. Used this API for getting location: http://ip-api.com/# and this for weather conditions: http://openweathermap.org/api <br>
 Sample: http://codepen.io/svmi3195/full/VjqodO/ <br><br>
 <b>5. Wikipedia Viewer (Under Development!!!)</b><br>
 A program which lets user to view random wiki article or search for wiki article.<br>
