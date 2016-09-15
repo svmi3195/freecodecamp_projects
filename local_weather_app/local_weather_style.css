@@ -1,11 +1,11 @@
-﻿html{
+html{
   height: 100%;
 }
 
 body{
   text-align: center;
   padding: 3%;
-  background-color: #000080;
+  background-color: #6495ED;
   background-image: url('http://www.photos-public-domain.com/wp-content/uploads/2016/02/wispy-cirrus-clouds.jpg');
   background-size: cover;
   background-position: center;
@@ -39,6 +39,12 @@ h1{
   color: #001f4d;
   line-height: 80%;
   font-family: 'Ubuntu Mono', sans-serif;
+}
+
+.degs{
+  width: 110px;
+  display: inline-block;
+  text-align: right;
 }
 
 #degsBtn{
