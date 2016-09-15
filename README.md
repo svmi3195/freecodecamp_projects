@@ -13,6 +13,12 @@ Sample: http://codepen.io/svmi3195/full/mEzBWX/ <br><br>
 <b>4. Local Weather App</b><br>
 A program which lets user to view local weather and convert temperature to C or F degrees; a different icon is shown depending on the current local weather. Used this API for getting location: http://ip-api.com/# and this for weather: http://openweathermap.org/api <br>
 Sample: http://codepen.io/svmi3195/full/VjqodO/ <br><br>
-<b>5. Wikipedia Viewer (Under Development!!!)</b><br>
-A program which lets user to view random wiki article or search for wiki article.<br>
+<b>5. Wikipedia Viewer</b><br>
+A program which lets user to view random wiki article or search for wiki article. Wikipedia API used.<br>
 Sample: http://codepen.io/svmi3195/full/rLRxXG/ <br><br>
+<b>6. Twitch.tv streamers (Under development!!!)</b><br>
+A program which lets user to view online and offline twitch.tv users and what is streamed. Used twitch.tv API and bootstrap.<br>
+Sample: http://codepen.io/svmi3195/pen/JKzXPZ <br><br>
+<b>7. Calculator (Under development!!!)</b><br>
+A simple calculator.<br>
+Sample: http://codepen.io/svmi3195/pen/ORyLXR <br><br>
