@@ -36,4 +36,4 @@ function changeDegs(){
      degC = (degF-32)*5/9;  
      degF = null;     $('#weather').text(Math.round(myJSON.main.temp) + " °C, " + myJSON.weather[0].main);  
      } 
-}
+} 
