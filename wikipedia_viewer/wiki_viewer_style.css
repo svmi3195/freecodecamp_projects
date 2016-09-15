@@ -1,1 +1,61 @@
-﻿
+body{
+  background-color: #19334d;
+  color: white;
+  font-family: 'Lora', serif;
+}
+
+h1{
+  color: #e6e600;
+  font-family: 'Alegreya', serif;
+}
+
+div{
+  margin: 2%;
+}
+
+.snippets{
+  color: black;
+  background-color: #ffffcc;
+  padding: 10px;
+  border-left-color: gray;
+  border-left-style: solid;
+  border-left-width: 20px;
+}
+
+.snippets:hover{
+  border-left-color: #e6e600;
+}
+
+h2{
+  text-align: left;
+  color: #19334d;
+  font-family: 'Alegreya', serif;
+}
+
+p{
+  text-align: left;
+  color: #19334d;
+}
+
+a:link{
+  color: #b3b300;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #cc7a00;
+  text-decoration: none;
+}
+
+.myLink:hover{
+  text-decoration: underline;
+}
+
+button{
+  color: #19334d;
+  font-family: 'Lora', serif;
+}
+
+#wrapper{
+  text-align: center;
+}
