@@ -1,0 +1,12 @@
+﻿body{
+  background-color: #a6a6a6;
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+}
+
+.container-fluid{
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 10px;
+}
