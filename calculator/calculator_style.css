@@ -2,11 +2,47 @@
   background-color: #a6a6a6;
   max-width: 300px;
   margin: auto;
-  padding: 20px;
 }
 
-.container-fluid{
+.wrapper{
   background-color: #333333;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
+  margin: 15px;
+}
+
+.row{
+  padding: 3px;
+  text-align: center;
+}
+
+.button{
+  width: 55px;
+  height: 55px
+}
+
+.big-btn{
+ width: 115px; 
+}
+
+.text{
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: white;
+  height: 70px;
+}
+
+.info{
+  
+}
+
+.current{
+  text-align: right;
+  font-size: 30px;
+}
+
+.logs{
+  text-align: right;
+  color: gray;
 }
