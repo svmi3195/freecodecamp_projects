@@ -17,8 +17,14 @@ var calculate = function (left, op, right){
 
 $(document).ready(go());
 
-function go(){
+function go(){	
+	
+	
+	
 $('button').on('click', function(){
+	
+	
+	
   var pressedBtn = $(this).text();
   $('.logs').append(pressedBtn);
   
@@ -49,6 +55,17 @@ $('button').on('click', function(){
     rightOp += pressedBtn;
     $('.current').text(rightOp);   
   }
+  
+  
+  if(($('.current').text()).length > 14){
+		$('.current').text('Overflow!');
+		$('.logs').text('Number too long...');
+	}
+
+	if(($('.logs').text()).length > 23){
+		reduced = $('.logs').text().slice(-23);
+		$('.logs').text(reduced);
+	}
   
 })
 }
