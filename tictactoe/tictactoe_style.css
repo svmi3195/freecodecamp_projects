@@ -1,1 +1,12 @@
-﻿
+﻿.wrapper{
+	max-width: 200px;
+	margin: auto;
+	padding-top:20px;
+	display: block;
+}
+
+.button{
+  width: 55px;
+  height: 55px;
+  float:left;
+}
