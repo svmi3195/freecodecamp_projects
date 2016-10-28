@@ -1,7 +1,7 @@
 ﻿.wrapper{
-	max-width: 200px;
+	width: 165px;
 	margin: auto;
-	padding-top:20px;
+	margin-top: 20px;
 	display: block;
 }
 
@@ -9,4 +9,6 @@
   width: 55px;
   height: 55px;
   float:left;
+	font-family: 'Architects Daughter', cursive;
+	font-size: xx-large;
 }
