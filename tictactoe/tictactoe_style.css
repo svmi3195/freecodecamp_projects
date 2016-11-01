@@ -5,10 +5,27 @@
 	display: block;
 }
 
-.button{
+.board{
   width: 55px;
   height: 55px;
   float:left;
 	font-family: 'Architects Daughter', cursive;
 	font-size: xx-large;
+	background-color: white;
+	border: 2px solid gray;
+}
+
+.interface{
+	display: block;
+	margin: auto;
+	padding: 10px;
+	font-size: x-large;
+	background: none;
+	border: none;
+	color: gray;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Architects Daughter', cursive;
 }

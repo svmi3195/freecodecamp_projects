@@ -8,7 +8,7 @@
 <meta name="description" content="tic-tac-toe game">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="tictactoe_style.css"/>
 
 <title>Tic-tac-toe game</title>
@@ -16,28 +16,40 @@
 </head>
 
 <body>
-
+<h1>Tic tac toe</h1>
 <div class="wrapper">
 
+<div class="game">
+
 	<div class="row">
-	  <button id="1" type="button" class="button"></button>
-	  <button id="2" type="button" class="button"></button>
-	  <button id="3" type="button" class="button"></button>
+	  <button id="1" type="button" class="board"></button>
+	  <button id="2" type="button" class="board"></button>
+	  <button id="3" type="button" class="board"></button>
 	</div>
 	<div class="row">
-	  <button id="4" type="button" class="button"></button>
-	  <button id="5" type="button" class="button"></button>
-	  <button id="6" type="button" class="button"></button>
+	  <button id="4" type="button" class="board"></button>
+	  <button id="5" type="button" class="board"></button>
+	  <button id="6" type="button" class="board"></button>
 	</div>
 	<div class="row">
-	  <button id="7" type="button" class="button"></button>
-	  <button id="8" type="button" class="button"></button>
-	  <button id="9" type="button" class="button"></button>
+	  <button id="7" type="button" class="board"></button>
+	  <button id="8" type="button" class="board"></button>
+	  <button id="9" type="button" class="board"></button>
 	</div>
+
+		<button id="settings" type="button" class="interface"><i class="fa fa-cog" aria-hidden="true"></i>
+</button>
+</div>
+
+<div class='menu'>
+	Choose<br>
+	<button id="X" type="button">X</button> or <button id="O" type="button">O</button>
+</button>
+</div>
 
 </div>
 
-
+<script src="https://use.fontawesome.com/d3d3d81daa.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="tictactoe_script.js"></script>
 </body>
