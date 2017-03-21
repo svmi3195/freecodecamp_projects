@@ -5,7 +5,7 @@ require('./css/index.css');
 
 var Header = React.createClass({
     render: function(){
-        return (<div class='my-header'><h1>I am the header</h1></div>);
+        return (<div className='header'><h1>Recipe Box</h1></div>);
     }
 });
 

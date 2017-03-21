@@ -1,7 +1,13 @@
-h1{
-    color: green;
+body, div, h1{
+    padding: 0;
+    margin: 0;
 }
 
-body{
-    background: yellow;
+h1{
+    color: white;
+}
+
+.header{
+    background: orange;
+    padding: 10px;
 }
