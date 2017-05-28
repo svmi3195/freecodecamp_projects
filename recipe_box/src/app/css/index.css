@@ -5,9 +5,26 @@ body, div, h1{
 
 h1{
     color: white;
+    display: inline-block;
+    margin-right: 20px;
 }
 
 .header{
     background: orange;
     padding: 10px;
+}
+
+.addBtn{
+    display: inline-block;
+    background: #ffc14d;
+    border-radius: 100%;
+    color: white;
+    border: none;
+    font-size: xx-large;
+    font-weight: 900;
+    text-align: center;
+}
+
+.addBtn:hover{
+    cursor: pointer;
 }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+		<meta name="description" content="My portfolio."/>
+		<meta name="keyword" content="portfolio"/>
+		<meta name="robots" content="index, follow"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="./style.css">
+
+        <title>Markdown Previewer</title>
+    </head>
+    <body>
+        <h1>Welcome to Markdown Previewer!</h1>
+        <div id='app'>
+
+        <textarea id='markdown'   v-bind:value="rawText"
+        v-on:input="marked = update($event.target.value); rawText = $event.target.value">
+        </textarea>
+        <div id='preview' v-html='marked'></div>
+
+        </div>
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.js'></script>
+        <script src='./app.js'></script>
+    </body>
+</html>

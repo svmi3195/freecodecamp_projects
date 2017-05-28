@@ -1,0 +1,60 @@
+$color1: #80ccff;
+$color2: #8cd9b3;
+$baseMargin: 10px;
+
+@mixin grad($color1, $color2){
+  background: linear-gradient($color1, $color2);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  
+  >h1{
+    text-align: center;
+    margin-top: $baseMargin * 2;
+    color: #004080;
+    font-size: 3rem;
+  }
+  
+  #app{
+    display: flex;
+    padding: $baseMargin * 2;
+    
+    textarea, div{
+    flex: 1;
+    padding: $baseMargin * 3;
+    border: 1px solid white;
+    
+    a{
+      color: #004080;
+    }
+    
+    ul, ol{
+      list-style-position: inside;
+      padding-left: $baseMargin;
+    }
+    
+    p, h1, h2, h3, h4, h5, h6{
+      margin:{
+        top: $baseMargin;
+        bottom: $baseMargin;
+      }
+    }
+  }
+  
+  #markdown{
+    @include grad($color1, $color2);
+  }
+  
+  #preview{
+    @include grad($color2, $color1);
+  }
+    
+    
+  }  
+  
+}

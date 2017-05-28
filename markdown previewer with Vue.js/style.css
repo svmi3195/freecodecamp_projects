@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body > h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #004080;
+  font-size: 3rem;
+}
+body #app {
+  display: flex;
+  padding: 20px;
+}
+body #app textarea, body #app div {
+  flex: 1;
+  padding: 30px;
+  border: 1px solid white;
+}
+body #app textarea a, body #app div a {
+  color: #004080;
+}
+body #app textarea ul, body #app textarea ol, body #app div ul, body #app div ol {
+  list-style-position: inside;
+  padding-left: 10px;
+}
+body #app textarea p, body #app textarea h1, body #app textarea h2, body #app textarea h3, body #app textarea h4, body #app textarea h5, body #app textarea h6, body #app div p, body #app div h1, body #app div h2, body #app div h3, body #app div h4, body #app div h5, body #app div h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body #app #markdown {
+  background: linear-gradient(#80ccff, #8cd9b3);
+}
+body #app #preview {
+  background: linear-gradient(#8cd9b3, #80ccff);
+}

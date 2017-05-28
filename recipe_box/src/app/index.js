@@ -3,10 +3,22 @@ import ReactDOM from 'react-dom';
 
 require('./css/index.css');
 
-var Header = React.createClass({
+var AddBtn = React.createClass({
     render: function(){
-        return (<div className='header'><h1>Recipe Box</h1></div>);
+        return (<button className='addBtn'>+</button>);
     }
 });
 
-ReactDOM.render(<Header />, document.getElementById('wrapper'));
+var Header = React.createClass({
+    render: function(){
+        return (<div className='header'><h1>Recipe Box  </h1> <AddBtn /></div>);
+    }
+});
+
+
+
+ReactDOM.render(
+    <div>
+    <Header />
+    
+    </div>, document.getElementById('wrapper'));
