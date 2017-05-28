@@ -42,18 +42,14 @@ Sample:
 Simon game.  
 Sample:  
 
-11. Timestamp  
-Simple timestamp app.  
-Sample:  
-
-12. Markdown Previewer with React  
+11. Markdown Previewer with React  
 Github-style markdown previewer made using React  
-Sample:  
+Sample: https://codepen.io/svmi3195/full/ggBREM/  
 
-13. Markdown Previewer with Vue.js  
+12. Markdown Previewer with Vue.js  
 Github-style markdown previewer made using Vue.js  
-Sample:  
+Sample: https://codepen.io/svmi3195/full/gWywWz/  
 
-14. Recipe Box with React  
+13. Recipe Box with React  
 Recipe box made using React  
 Sample:  
