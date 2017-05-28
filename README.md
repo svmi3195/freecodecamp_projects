@@ -22,34 +22,38 @@ Sample: http://codepen.io/svmi3195/full/VjqodO/
 A program which lets user to view random wiki article or search for wiki article. Wikipedia API used.  
 Sample: http://codepen.io/svmi3195/full/rLRxXG/  
 
-6. Twitch.tv streamers (Under development!!!)  
+6. Twitch.tv streamers   
 A program which lets user to view online and offline twitch.tv users and what is streamed. Used twitch.tv API and bootstrap.  
 Sample: http://codepen.io/svmi3195/pen/JKzXPZ  
 
-7. Calculator (Under development!!!)  
+7. Calculator 
 A simple calculator.  
 Sample: http://codepen.io/svmi3195/pen/ORyLXR  
 
 8. Pomodoro  
 Pomodoro clock.  
-Sample:  
+Sample:   
 
 9. Tic tac toe  
 Tic tac toe game.  
 Sample:  
 
-10. Simon  
+10. Simon Game 
 Simon game.  
-Sample:  
+Sample: https://codepen.io/svmi3195/pen/QKvozZ  
 
 11. Markdown Previewer with React  
 Github-style markdown previewer made using React  
-Sample: https://codepen.io/svmi3195/full/ggBREM/  
+Sample (run with Firefox): https://codepen.io/svmi3195/full/ggBREM/  
 
 12. Markdown Previewer with Vue.js  
 Github-style markdown previewer made using Vue.js  
 Sample: https://codepen.io/svmi3195/full/gWywWz/  
 
-13. Recipe Box with React  
+13. Campers Leaderboard with React  
+FCC Campers Leaderboard made using React  
+Sample: https://codepen.io/svmi3195/full/RKqNOg/  
+
+14. Recipe Box with React  
 Recipe box made using React  
 Sample:  
