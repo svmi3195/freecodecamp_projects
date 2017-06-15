@@ -1,0 +1,84 @@
+@mixin coloredBtn($color){
+  background-color: $color;
+  border: 5px solid darken($color, 20%);
+}
+
+%coloredActive{
+  &:active{
+    background-color: white;
+    border: none;
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: lighten(#1a1a1a, 80%);
+  background: linear-gradient(to right, white, black, white);
+}
+
+.wrapper{
+  text-align: center;
+  height: 100%;
+  max-width: 600px;
+  margin: 0 auto 0 auto;
+  color: white;
+  background-color: #1a1a1a;
+  
+  .menu{
+    .score{
+     display: inline-block; 
+     font-size: 40px;
+     width: 50px;
+     margin: 0 20px 0 20px; 
+    }
+    button{
+      padding: 2px 7px 2px 7px;
+      border: 2px solid gray;
+      border-radius: 5px;
+      &:hover{
+        border-color: black;
+        color: black;
+        background-color: orange;
+      }
+    }      
+    .on{
+        color: orange;
+        border-color: orange;
+    }
+  }
+  .btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 70%;
+    
+    button{
+      width: 50%;
+      height: 50%;
+    }
+    .red{
+      @include coloredBtn(#ff704d);
+      @extend %coloredActive;
+    }
+    .green{
+      @include coloredBtn(#00cc44);
+      @extend %coloredActive;
+    }
+    .blue{
+      @include coloredBtn(#0099cc);
+      @extend %coloredActive;
+    }
+    .yellow{
+      @include coloredBtn(#ffff00);      
+      @extend %coloredActive;     
+    }
+    .pressed{
+      background-color: white;
+      border: none;
+    }
+  }
+}

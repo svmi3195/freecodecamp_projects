@@ -32,11 +32,11 @@ Sample: http://codepen.io/svmi3195/pen/ORyLXR
 
 8. Pomodoro  
 Pomodoro clock.  
-Sample:   
+Sample: https://codepen.io/svmi3195/full/yabwQN/  
 
 9. Tic tac toe  
 Tic tac toe game.  
-Sample:  
+Sample:  https://codepen.io/svmi3195/full/KNpyGv/
 
 10. Simon Game 
 Simon game.  
