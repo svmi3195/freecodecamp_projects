@@ -1,0 +1,84 @@
+$lightest: white;
+$darkest: black;
+$light: #b3b3b3;
+$dark: #666666;
+$btnGrad: linear-gradient(to bottom,  $darkest, $lightest, $darkest);
+$btnGradSec: linear-gradient(to bottom,  $dark, $darkest, $dark);
+$padding: 3px;
+$radius: 3px;
+
+*{
+  margin: 0;
+  padding: 0
+}
+
+body{
+  background: $darkest;
+  font-family: monospace;
+  color: $lightest;
+}
+
+canvas{
+  display: block;
+  margin: 0 auto;
+}
+
+.ui, h1{
+  margin: 10px 0 10px 5px;
+  display: inline-block;
+}
+
+button{
+  padding: $padding;
+  border: 1px solid $dark;
+  border-radius: $radius;
+  color: $darkest;
+  background-color: $lightest;
+  background: $btnGrad;
+  margin-bottom: 10px;
+  font-weight: 600;
+  
+  &:hover{
+    cursor: pointer;
+    border: 1px solid $light;
+  }
+}
+
+.active{
+    border: 1px solid $light;
+    background-color: $darkest;  
+    background: $btnGradSec;
+    color: $light;
+}
+
+.ui{  
+  color: $light;
+}
+
+select{
+  padding: $padding;
+  color: $darkest;
+  background: $btnGrad;
+  border: 1px solid $dark;
+  border-radius: $radius;
+  
+  option{
+    background-color: $light;
+  }  
+}
+
+#toggleUi{
+  background: $darkest;
+  color: $light;
+  border: none;
+  font-weight: 900;
+  
+  &:hover{
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.hide{
+  display: none;
+}

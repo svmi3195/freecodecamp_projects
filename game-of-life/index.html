@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Conway's game of life</title>
+
+  </head>
+  <body>
+    <h1>
+        Generation: <span class="generation">0</span> 
+        <button id="toggleUi"><<<</button>
+    </h1>
+    <div id="ui" class="ui">
+    <button id="pause" >Pause</button>
+    <button id="random">Random</button>
+    <button id="clear">Clear</button>
+    <button id="place">Place cells</button>
+    <select id="theme" >
+        <option value="matrix">matrix</option>
+        <option value="squares" selected>squares</option>
+        <option value="circles">circles</option>
+        <option value="stars">stars</option>
+    </select>
+    <select id="speed">
+        <option value="fast" selected>fast</option>
+        <option value="medium">medium</option>
+        <option value="slow">slow</option>
+    </select>
+    <select id="size">
+        <option value="1">1px</option>
+        <option value="3">3px</option>
+        <option value="5">5px</option>
+        <option value="10" selected>10px</option>
+        <option value="15">15px</option>
+        <option value="20">20px</option>
+    </select>
+    </div>
+    <canvas id="game"></canvas>
+
+    <script src='./app.js'></script>
+  </body>
+</html>

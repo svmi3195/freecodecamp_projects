@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+  font-family: monospace;
+  color: white;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+}
+
+.ui, h1 {
+  margin: 10px 0 10px 5px;
+  display: inline-block;
+}
+
+button {
+  padding: 3px;
+  border: 1px solid #666666;
+  border-radius: 3px;
+  color: black;
+  background-color: white;
+  background: linear-gradient(to bottom, black, white, black);
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+button:hover {
+  cursor: pointer;
+  border: 1px solid #b3b3b3;
+}
+
+.active {
+  border: 1px solid #b3b3b3;
+  background-color: black;
+  background: linear-gradient(to bottom, #666666, black, #666666);
+  color: #b3b3b3;
+}
+
+.ui {
+  color: #b3b3b3;
+}
+
+select {
+  padding: 3px;
+  color: black;
+  background: linear-gradient(to bottom, black, white, black);
+  border: 1px solid #666666;
+  border-radius: 3px;
+}
+select option {
+  background-color: #b3b3b3;
+}
+
+#toggleUi {
+  background: black;
+  color: #b3b3b3;
+  border: none;
+  font-weight: 900;
+}
+#toggleUi:hover {
+  border: none;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}

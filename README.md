@@ -56,4 +56,12 @@ Sample: https://codepen.io/svmi3195/full/RKqNOg/
 
 14. Recipe Box with React  
 Recipe box made using React  
-Sample:  
+Sample:
+
+15. Recipe box with Vue.js  
+Recipe box made using Vue.js  
+Sample:    
+
+16. Conways's game of life  
+Game of life made using HTML5 canvas and vanilla JS.  
+Sample: https://codepen.io/svmi3195/full/vJbKgO/  
