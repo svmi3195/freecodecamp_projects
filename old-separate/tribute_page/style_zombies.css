@@ -1,0 +1,66 @@
+body {
+	background-color: #ffffcc;
+	color: black;	
+}
+
+#wrapper {
+	border-style: double;
+	border-width: 10px;	
+	border-radius: 25px;
+	border-color: black;
+	margin: 10px;	
+}
+
+img {
+	border-radius: 25px;
+	display: block;
+	max-width: 100%;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;	
+}
+
+h1 {
+	font-family: "Old Standard TT", serif;
+	text-align: center;
+	padding: 10px;
+
+}
+
+h2 {
+	font-family: "Old Standard TT", serif;
+	border-top-style: dotted;
+	border-top-width: 2px;
+	border-top-color: black;
+	padding: 10px;
+}
+
+p {
+    font-family: 'Droid Sans', sans-serif;
+	text-align: justify;
+}
+
+a:link {
+    font-family: 'Droid Sans', sans-serif;
+	font-style: italic;
+	color: #663300;	
+}
+
+a:visited {
+	color: #ff9900;
+}
+
+blockquote {
+	max-width: 900px;
+	color: #4d4d4d;
+	font-size: 1.3em;
+	font-family: 'Kalam', cursive;
+	text-align: justify;
+	border: none;
+	margin: auto;
+}
+
+.desc {
+	max-width: 600px;
+	margin: auto;
+}

@@ -1,0 +1,75 @@
+﻿body{
+  background-color: #a6a6a6;
+  padding-top: 20px;
+  padding-top: 15vh;
+  font-family: 'Droid Sans Mono', monospace;
+}
+
+.wrapper{
+  background-color: black;
+  padding: 15px;
+  border-radius: 10px;
+  width: 300px;
+  margin: auto;
+  border: 3px solid #1a1a1a;
+}
+
+.button{
+  margin: 0px;
+  font-size: medium;
+  border-radius: 5px;
+  background-color: #262626;
+  background: linear-gradient(gray, black, #1a1a1a);
+  border: 1px solid #003300;
+}
+
+.button:hover, .button:focus{
+  background-color: #404040;
+  box-shadow: 0 0 3px #1aff1a;
+  //color: #1aff1a;
+}
+
+.column{
+  padding: 7px;
+  text-align: center;
+}
+
+.text{
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: white;
+  background: repeating-linear-gradient(#e6e6e6, #cccccc 10%, #e6e6e6 10%);
+  height: 70px;
+  border: 2px solid #004d00;
+}
+
+.current{
+  text-align: right;
+  font-size: x-large;
+}
+
+.logs{
+  text-align: right;
+  color: gray;
+  height: 19px;
+}
+
+.fa{
+  padding:0 5px 0 5px;
+  color: #0d0d0d;
+  text-shadow: none;  
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: 2;
+  -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes glowResult {
+    0% {color: #0d0d0d; text-shadow: none;}
+    100% {color: green; text-shadow: 0 0 10px green, 0 0 20px green, 0 0 20px blue;}
+}
+
+@-webkit-keyframes glowError {
+    0% {color: #0d0d0d; text-shadow: none;}
+    100% {color: red; text-shadow: 0 0 10px red, 0 0 20px red, 0 0 20px red;}
+}
