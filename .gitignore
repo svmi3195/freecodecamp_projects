@@ -1,5 +1,6 @@
 new-spa/node_modules
 new-spa/dist
+new-spa/docs
 
 .DS_Store
 # local env files
