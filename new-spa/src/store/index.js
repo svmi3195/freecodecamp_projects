@@ -16,5 +16,8 @@ export default new Vuex.Store({
         name: "project 3"
       }
     ]
+  },
+  getters: {
+    list: state => state.projects.map(project => project.name)
   }
 })
